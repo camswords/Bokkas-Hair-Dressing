@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# clear the build directory
-rm -rf build/*
-
 # compress the templates into the build directory 
-tar -cjf bokkas-website-templates.bc2 --directory ../src/templates/bokkas-website .
+tar -cjf bokkas-website-templates.bc2 --directory ../../src/templates/bokkas-website .
 
 # send the files to the server
 scp bokkas-website-templates.bc2 bokka@production:~
