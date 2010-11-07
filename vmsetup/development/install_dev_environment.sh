@@ -10,6 +10,9 @@ sudo apt-get install vim -y
 
 sudo apt-get install git-core -y 
 
+git config --global user.name 'Cam'
+git config --global user.email 'cam@someemailthatdoesntwork.com'
+
 mkdir ~/Documents/development 
 cd ~/Documents/development
 
