@@ -1,0 +1,38 @@
+
+#business-logo {
+	font-size: 2.5em;
+	padding-bottom: 1em;
+}
+
+
+#toolbar {
+	padding-bottom: 2em;
+}
+
+#toolbar a {
+	font-size: 1.2em;
+	text-decoration: underline;
+	color: black;
+}
+
+
+body {
+	font-size: 100%;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+
+#main {
+	background:url('/templates/bokkas-website/images/sassoon.jpg');
+	height: auto !important;
+	min-height: 540px;
+	border-left: 1px solid lightgrey;
+}
+
+p.introduction {
+	width: 30%;
+	font-size: 1.5em;
+	padding: 7em 3em;
+}
