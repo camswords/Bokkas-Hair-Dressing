@@ -39,8 +39,8 @@ wget http://joomlacode.org/gf/download/frsrelease/12610/53421/Joomla_1.5.20-Stab
 sudo unzip Joomla_1.5.20-Stable-Full_Package.zip -d /var/www
 
 # configure joomla for bokkas-website
-sudo cp /Documents/development/Bokkas-Hair-Dressing/src/configuration.php /var/www
-sudo rm -rf /var/www/installation
+sudo rm -rf /var/www
+sudo ln -s /Documents/development/Bokkas-Hair-Dressing/src/ /var/www
 
 # restart apache to ensure php can be rendered
 sudo /etc/init.d/apache2 restart
