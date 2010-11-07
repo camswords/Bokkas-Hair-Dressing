@@ -27,7 +27,7 @@ cd ~/Documents/development
 git clone git@github.com:camswords/Bokkas-Hair-Dressing.git
 
 # install unzip command
-sudo apt-get install unzip
+sudo apt-get install unzip -y
 
 # remove the apache default index file
 sudo rm /var/www/index.html
@@ -44,5 +44,8 @@ sudo ln -s /Documents/development/Bokkas-Hair-Dressing/src/ /var/www
 
 # restart apache to ensure php can be rendered
 sudo /etc/init.d/apache2 restart
+
+# install eclipse
+sudo apt-get install eclipse -y
 
 echo 'done! navigate to http://127.0.0.1/ to visit website'
