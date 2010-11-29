@@ -2,7 +2,7 @@
 #business-logo { font-size: 2.5em; padding-bottom: 1em; }
 
 /* menu */
-#toolbar { margin: 0; padding: 0; }
+#toolbar { margin: 0; padding: 0; position: absolute; top: 90%; }
 #toolbar ul li { display: inline; padding: 1em; }
 #toolbar ul li a { text-decoration: none; font-size: 1.2em; color: black; }
 #toolbar ul li a:hover { text-decoration: underline; }
@@ -19,7 +19,7 @@ body {
 /* Fixed width layout */
 * { margin: 0; padding: 0; }
 #wrapper { margin:0 auto; width:922px; }
-#header { border:1px solid black; margin:10px 0 0; width:900px; height:300px; background:url('/templates/bokkas-website/images/jojo-300-high.jpg') no-repeat right; }
+#header { border:1px solid black; margin:10px 0 0; width:900px; height:300px; position: relative; background:url('/templates/bokkas-website/images/jojo-300-high.jpg') no-repeat right; }
 #content { background:none repeat scroll 0 0 white; border:1px solid #black; height:350px; margin:0 0 10px; padding:10px; width:900px; }
 
 
