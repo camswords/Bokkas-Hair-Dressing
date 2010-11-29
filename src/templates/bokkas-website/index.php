@@ -6,8 +6,13 @@
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/bokkas-website/css/rebecca-cheri.css" type="text/css" />
 </head>
 <body>
+	
 	<div id="wrapper">
-		<div id="header">
+		<div class="shadow1">
+			<div class="shadow2">
+				<div class="shadow3">
+					<div class="container">
+					<div id="header">
 			<div id="business-logo">
 				Rebecca Cheri
 			</div>
@@ -16,9 +21,17 @@
 				<jdoc:include type="modules" name="toolbar" style="xhtml" headerLevel="3" />
 			</div>
 		</div>
-		<div id="content">
-			<jdoc:include type="component" />
+			<div id="content">		
+						<jdoc:include type="component" />
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
 </body>
 </html>
