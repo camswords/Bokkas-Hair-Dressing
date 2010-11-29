@@ -15,7 +15,8 @@ body {
 	margin-top: 1em;
 }
 
-.introduction { font-size: 1.5em; padding: 2em 2em 1em 2em; }
+.introduction { }
+.phone-number { }
 
 .article_separator { display:inline; }
 
@@ -23,19 +24,21 @@ body {
 * { margin: 0; padding: 0; }
 #wrapper { margin:0 auto; width:922px; }
 #header { border-left: 1px solid #848284; border-top: 1px solid #848284; border-right: 1px solid #848284; margin:10px 0 0; height:300px; position: relative; background:url('/templates/bokkas-website/images/headline.jpg') no-repeat right; }
-#content { border:1px solid #848284; background: white;}
+#content { border:1px solid #848284; background: white; padding: 2em 2em 1em 2em; font-size: 1.5em; }
 
 
 /* Prices */
-.even { background-color: lightgrey; }
+.price-list { }
+.price-list .service {}
+.price-list .price { float: right; }
+.even { background-color: #F1F0F1; }
 .odd { background-color: white; }
 
 
 /* drop shadow around content */ 
 #wrapper .shadow2,
 #wrapper .shadow3,
-#wrapper .container { position: relative; left: -1px; top: -1px; }
+#wrapper .container { position: relative; left: -1px; top: -1px; background: #ffffff; }
 #wrapper .shadow1 { background: #F1F0F1; width: 900px; }
 #wrapper .shadow2 { background: #DBDADB; }
 #wrapper .shadow3 { background: #B8B6B8; }
-#wrapper .container { background: #ffffff; }
