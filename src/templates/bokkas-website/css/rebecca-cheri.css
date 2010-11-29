@@ -1,20 +1,13 @@
 
-#business-logo {
-	font-size: 2.5em;
-	padding-bottom: 1em;
-}
+#business-logo { font-size: 2.5em; padding-bottom: 1em; }
 
+/* menu */
+#toolbar { margin: 0; padding: 0; }
+#toolbar ul li { display: inline; padding: 1em; }
+#toolbar ul li a { text-decoration: none; font-size: 1.2em; color: black; }
+#toolbar ul li a:hover { text-decoration: underline; }
 
-#toolbar {
-	padding-bottom: 2em;
-}
-
-#toolbar a {
-	font-size: 1.2em;
-	text-decoration: underline;
-	color: black;
-}
-
+/* site text */
 body {
 	font-size: 100%;
 	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
@@ -23,60 +16,13 @@ body {
 }
 
 
-#content {
-	background:url('/templates/bokkas-website/images/jojo-1000x667.jpg');
-	height: auto !important;
-	min-height: 540px;
-	border-left: 1px solid lightgrey;
-}
-
-p.introduction {
-	width: 30%;
-	font-size: 1.5em;
-	padding: 7em 3em;
-}
-
 /* Fixed width layout */
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-#wrapper {
-	margin:0 auto;
-	width:922px;
-}
-
-#header {
-	background:none repeat scroll 0 0 white;
-	border:1px solid black;
-	height:100px;
-	margin:10px 0 0;
-	width:900px;
-}
-
-#header {
-	background:url('/templates/bokkas-website/images/jojo-300-high.jpg') no-repeat right;
-	height:300px;
-}
-
-#content {
-	background:none repeat scroll 0 0 white;
-	border:1px solid #black;
-	height:350px;
-	margin:0 0 10px;
-	padding:10px;
-	width:900px;
-}
-
+* { margin: 0; padding: 0; }
+#wrapper { margin:0 auto; width:922px; }
+#header { border:1px solid black; margin:10px 0 0; width:900px; height:300px; background:url('/templates/bokkas-website/images/jojo-300-high.jpg') no-repeat right; }
+#content { background:none repeat scroll 0 0 white; border:1px solid #black; height:350px; margin:0 0 10px; padding:10px; width:900px; }
 
 
 /* Prices */
-.even {
-	background-color: lightgrey;
-}
-
-.odd {
-	background-color: white;
-}
+.even { background-color: lightgrey; }
+.odd { background-color: white; }
