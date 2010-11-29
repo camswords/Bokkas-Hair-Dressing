@@ -23,8 +23,8 @@ body {
 }
 
 
-#main {
-	background:url('/templates/bokkas-website/images/sassoon.jpg');
+#content {
+	background:url('/templates/bokkas-website/images/jojo-1000x667.jpg');
 	height: auto !important;
 	min-height: 540px;
 	border-left: 1px solid lightgrey;
@@ -36,10 +36,47 @@ p.introduction {
 	padding: 7em 3em;
 }
 
+/* Fixed width layout */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:922px;
+}
+
+#header {
+	background:none repeat scroll 0 0 white;
+	border:1px solid black;
+	height:100px;
+	margin:10px 0 0;
+	width:900px;
+}
+
+#header {
+	background:url('/templates/bokkas-website/images/jojo-300-high.jpg') no-repeat right;
+	height:300px;
+}
+
+#content {
+	background:none repeat scroll 0 0 white;
+	border:1px solid #black;
+	height:350px;
+	margin:0 0 10px;
+	padding:10px;
+	width:900px;
+}
+
+
+
+/* Prices */
 .even {
-	background-color: blue;
+	background-color: lightgrey;
 }
 
 .odd {
-	background-color: green;
+	background-color: white;
 }
