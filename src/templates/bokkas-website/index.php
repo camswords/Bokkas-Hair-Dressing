@@ -13,7 +13,7 @@
 					<div class="container">
 					<div id="header">
 			<div id="business-logo">
-				Rebecca Cheri
+				<img src="/templates/bokkas-website/images/rebeccacheri.jpg" width="378" height="100" alt="Rebecca Cheri" />
 			</div>
 		
 			<div id="toolbar">
