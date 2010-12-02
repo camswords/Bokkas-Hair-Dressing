@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/bokkas-website/css/rebecca-cheri.css" type="text/css" />
 </head>
 <body>
-	
 	<div id="wrapper">
 		<div class="shadow1">
 			<div class="shadow2">

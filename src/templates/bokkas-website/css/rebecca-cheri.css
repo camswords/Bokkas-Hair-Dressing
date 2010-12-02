@@ -8,11 +8,13 @@
 #toolbar ul li a:hover { text-decoration: underline; }
 
 /* site text */
-body {
+html, body {
 	font-size: 100%;
 	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
-	margin-left: 1em;
-	margin-top: 1em;
+	margin: 0;
+	padding: 0;
+	background: url('/templates/bokkas-website/images/floral_pattern.jpg');
+	background-color: black;
 }
 
 .componentheading { display:none; }
@@ -26,7 +28,7 @@ body {
 * { margin: 0; padding: 0; }
 #wrapper { margin:0 auto; width:922px; }
 #header { border-left: 1px solid #848284; border-top: 1px solid #848284; border-right: 1px solid #848284; margin:10px 0 0; height:300px; position: relative; background:url('/templates/bokkas-website/images/headline.jpg') no-repeat right; }
-#content { border:1px solid #848284; background: white; padding: 2em 2em 1em 2em; font-size: 1.5em; }
+#content { border:1px solid #848284; background: white; padding: 2em 2em 1em 2em; font-size: 1.2em; }
 
 
 /* Prices */
