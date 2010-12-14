@@ -1,5 +1,6 @@
 
 #business-logo { font-size: 2.5em; padding: 0.5em; }
+#tagline { font-size: 0.5em; font-style: italic; padding-left: 2em;}
 
 /* menu */
 #toolbar { margin: 0; padding: 0; position: absolute; top: 90%; }

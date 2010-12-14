@@ -29,6 +29,7 @@
 					<div id="header">
 			<div id="business-logo">
 				<img src="/templates/bokkas-website/images/rebeccacheri.jpg" width="378" height="100" alt="Rebecca Cheri" />
+				<div id="tagline">mobile hairdressing</div>
 			</div>
 		
 			<div id="toolbar">
