@@ -1,6 +1,5 @@
-NameVirtualHost test.rebeccacheri.co.uk
 
-<VirtualHost test.rebeccacheri.co.uk>
+<VirtualHost *:80>
 	ServerAdmin webadmin@test.rebeccacheri.co.uk
 	ServerName test.rebeccacheri.co.uk
 
