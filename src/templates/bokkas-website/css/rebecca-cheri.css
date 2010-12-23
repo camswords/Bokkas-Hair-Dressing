@@ -36,15 +36,24 @@ html, body {
 .main-areas-covered .blurb { padding: 1em; }
 .main-areas-covered .areas { margin: 0 0 0 5em; float: left; width: 32em; padding: 0; list-style: none; }
 .main-areas-covered .areas li { float: left; width: 8em; margin: 0; padding: 0 }
+.even { background-color: #F1F0F1; }
+.odd { background-color: white; }
 
 /* Prices */
 .price-list { }
 .price-list .section { padding-bottom: 1em; }
 .price-list .service {}
 .price-list .price { float: right; }
-.even { background-color: #F1F0F1; }
-.odd { background-color: white; }
 
+/* Working hours */
+
+.working-hours {}
+.working-hours .day-with-hours { }
+.working-hours .day-with-hours .day { width: 10em; float: left;}
+.working-hours .day-with-hours .start-time { width: 10em; float: left;}
+.working-hours .day-with-hours .end-time { width: 10em; float: left; }
+.working-hours .day-with-hours .all-day { width: 20em; float: left; }
+.working-hours .day-with-hours .end-working-hours { clear: both; display: inline;}
 
 /* drop shadow around content */ 
 #wrapper .shadow2,
