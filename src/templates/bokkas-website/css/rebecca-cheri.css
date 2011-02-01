@@ -71,8 +71,8 @@ a:active {}
 .contact .blurb {}
 .contact .contact-details { padding: 1em; }
 .contact .contact-details .form-of-contact {}
-.contact .contact-details .form-of-contact .type { width: 10em; }
-.contact .contact-details .form-of-contact .details {}
+.contact .contact-details .form-of-contact .type { float: left; width: 10em; }
+.contact .contact-details .form-of-contact .details { }
 
 
 /* drop shadow around content */ 
