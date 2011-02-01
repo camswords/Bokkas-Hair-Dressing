@@ -31,6 +31,8 @@ a:active {}
 .phone-number { }
 
 .clearfloats { clear: both; }
+.even { background-color: #F1F0F1; }
+.odd { background-color: white; }
 
 .article_separator { display:inline; }
 
@@ -42,11 +44,14 @@ a:active {}
 
 /* main areas covered */
 .main-areas-covered { }
-.main-areas-covered .blurb { padding: 1em; }
-.main-areas-covered .areas { margin: 0 0 0 5em; float: left; width: 32em; padding: 0; list-style: none; }
-.main-areas-covered .areas li { float: left; width: 8em; margin: 0; padding: 0 }
-.even { background-color: #F1F0F1; }
-.odd { background-color: white; }
+.main-areas-covered .blurb { padding-bottom: 1em; }
+.main-areas-covered .list-areas-covered .blurb { padding-top: 1em; }
+.main-areas-covered .list-areas-covered .list { width: 800px; }
+.main-areas-covered .list-areas-covered .areas { margin: 0 0 0 2em; float: left; width: 800px; padding: 0; list-style: none; }
+.main-areas-covered .list-areas-covered .areas li { float: left; width: 8em; margin: 0; padding: 0; font-size: 0.8em }
+
+.main-areas-covered .map-areas-covered .map { border: 1px solid black; }
+
 
 /* Working hours */
 
