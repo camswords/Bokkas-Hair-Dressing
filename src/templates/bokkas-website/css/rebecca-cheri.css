@@ -18,6 +18,7 @@ html, body {
 	background-color: black;
 }
 
+
 /* site links */
 a:link { color: blue; }
 a:visited { color: blue; }
@@ -28,6 +29,8 @@ a:active {}
 
 .introduction { }
 .phone-number { }
+
+.clearfloats { clear: both; }
 
 .article_separator { display:inline; }
 
@@ -45,6 +48,15 @@ a:active {}
 .even { background-color: #F1F0F1; }
 .odd { background-color: white; }
 
+/* Working hours */
+
+.working-hours { width: 800px; margin-top: 1em; border: 1px solid #F1F0F1; }
+.working-hours h1 { background-color: #4E4C4D; color: white; padding: 0.2em; }
+.working-hours .day-with-hours { padding: 0.2em 0.5em 0.2em 1em; font-size: 0.9em; }
+.working-hours .day-with-hours .day { float: left;}
+.working-hours .day-with-hours .all-day { float: right; }
+.working-hours .day-with-hours .end-working-hours { clear: both; display: inline;}
+
 /* Prices */
 .price-list { width: 800px; }
 .price-list .section { margin-bottom: 1em; border: 1px solid #F1F0F1; }
@@ -52,16 +64,6 @@ a:active {}
 .price-list .price { float: right; }
 .price-list .section h1 { background-color: #4E4C4D; color: white; padding: 0.2em; }
 .price-list .section div { padding: 0.2em 0.5em 0.2em 1em; font-size: 0.9em;}
-
-/* Working hours */
-
-.working-hours {}
-.working-hours .day-with-hours { }
-.working-hours .day-with-hours .day { width: 10em; float: left;}
-.working-hours .day-with-hours .start-time { width: 10em; float: left;}
-.working-hours .day-with-hours .end-time { width: 10em; float: left; }
-.working-hours .day-with-hours .all-day { width: 20em; float: left; }
-.working-hours .day-with-hours .end-working-hours { clear: both; display: inline;}
 
 /* drop shadow around content */ 
 #wrapper .shadow2,
