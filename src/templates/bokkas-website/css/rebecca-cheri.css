@@ -40,10 +40,12 @@ html, body {
 .odd { background-color: white; }
 
 /* Prices */
-.price-list { }
-.price-list .section { padding-bottom: 1em; }
+.price-list { width: 800px; }
+.price-list .section { margin-bottom: 1em; border: 1px solid #F1F0F1; }
 .price-list .service {}
 .price-list .price { float: right; }
+.price-list .section h1 { background-color: #4E4C4D; color: white; padding: 0.2em; }
+.price-list .section div { padding: 0.2em 0.5em 0.2em 1em; font-size: 0.9em;}
 
 /* Working hours */
 
