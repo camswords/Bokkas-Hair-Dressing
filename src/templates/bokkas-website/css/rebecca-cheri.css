@@ -18,6 +18,12 @@ html, body {
 	background-color: black;
 }
 
+/* site links */
+a:link { color: blue; }
+a:visited { color: blue; }
+a:hover {}
+a:active {}
+
 .componentheading { display:none; }
 
 .introduction { }
