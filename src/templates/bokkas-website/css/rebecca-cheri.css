@@ -52,6 +52,8 @@ a:active {}
 
 .working-hours { width: 800px; margin-top: 1em; border: 1px solid #F1F0F1; }
 .working-hours h1 { background-color: #4E4C4D; color: white; padding: 0.2em; }
+.working-hours h1 .heading { float: left; }
+.working-hours h1 .caption { float: right; font-size: 0.9em; }
 .working-hours .day-with-hours { padding: 0.2em 0.5em 0.2em 1em; font-size: 0.9em; }
 .working-hours .day-with-hours .day { float: left;}
 .working-hours .day-with-hours .all-day { float: right; }
@@ -64,6 +66,14 @@ a:active {}
 .price-list .price { float: right; }
 .price-list .section h1 { background-color: #4E4C4D; color: white; padding: 0.2em; }
 .price-list .section div { padding: 0.2em 0.5em 0.2em 1em; font-size: 0.9em;}
+
+/* Contact */
+.contact .blurb {}
+.contact .contact-details { padding: 1em; }
+.contact .contact-details .form-of-contact {}
+.contact .contact-details .form-of-contact .type { width: 10em; }
+.contact .contact-details .form-of-contact .details {}
+
 
 /* drop shadow around content */ 
 #wrapper .shadow2,
