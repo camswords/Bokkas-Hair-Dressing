@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rebecca Cheri Hair Dressing</title>
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/reset-min.css'}">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/rebecca-cheri.css'}" >
+        #{get 'moreStyles' /}
+        
+		#{get 'moreScripts' /}
+		
+        <script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-20232832-1']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		  })();
+		</script>
+    </head>
+    <body>
+		<div id="wrapper">
+			<div class="shadow1">
+				<div class="shadow2">
+					<div class="shadow3">
+						<div class="container">
+							<div id="header">
+								<div id="business-logo">
+									<img src="/public/images/rebeccacheri.jpg" width="378" height="100" alt="Rebecca Cheri" />
+									<div id="tagline">mobile hairdressing</div>
+								</div>
+				
+								<div id="toolbar">
+									<ul class="menu">
+										<li><a href="/"><span>Home</span></a></li>
+										<li><a href="/prices"><span>Prices</span></a></li>
+										<li><a href="/areas-and-hours"><span>Areas and hours</span></a></li>
+										<li><a href="/bridal"><span>Bridal</span></a></li><li class="item4"><a href="/contact"><span>Contact</span></a></li>
+										<li><a href="/about-me"><span>About me</span></a></li>
+									</ul>		
+								</div>
+							</div>
+							<div id="content">		
+								#{doLayout /}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>    
+    </body>
+</html>
