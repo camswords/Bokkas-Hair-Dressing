@@ -1,5 +1,0 @@
-#!/bin/sh
-#
-# backup-rebecca-cheri-db cron daily
-
-mysqldump -u bokka -phair --add-drop-database --databases Joomla > /var/backups/rebecca-cheri/rebecca-cheri-db-backup-`date '+%Y-%m-%d-%I:%M%p'`.sql

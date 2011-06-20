@@ -1,5 +1,0 @@
-#!/bin/sh
-#
-# clear-old-rebecca-cheri-backups cron daily
-
-find /var/backups/rebecca-cheri/*.sql -ctime +180 -exec rm {} \;
