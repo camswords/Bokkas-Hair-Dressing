@@ -11,7 +11,10 @@ echo 'export PATH=$PATH:/var/lib/play-1.2.1/' >> ~/.bashrc
 
 
 # install the mail client
-sudo apt-get install postfix --assume-yes
+sudo apt-get install postfix --assume-yes <<EOF
+2
+rebeccacheri.co.uk
+EOF
 sudo /etc/init.d/postfix stop
 sudo mv /root/virtual /etc/postfix
 sudo mv /root/main.cf /etc/postfix
@@ -21,4 +24,4 @@ sudo /etc/init.d/postfix start
 
 # finished!
 echo
-echo 'Rebecca Cheri Production Environment has been successfully installed.'
+echo 'Rebecca Cheri Environment has been successfully installed.'

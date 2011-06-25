@@ -14,10 +14,8 @@ groupadd wheel
 usermod -a -G wheel bokka
 
 # update users password
-passwd bokka <<EOF
-hair
-hair
-EOF
+echo "Please enter the password for bokka:"
+passwd bokka
 
 # switch to the new user
 su -c "sudo /root/install-tools.sh" - bokka
