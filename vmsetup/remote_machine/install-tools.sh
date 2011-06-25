@@ -1,4 +1,9 @@
 
+# install the java jdk
+echo "deb http://archive.canonical.com/ lucid partner" >> /etc/apt/sources.list
+apt-get update
+apt-get install sun-java6-jre sun-java6-plugin sun-java6-fonts --assume-yes
+
 # download play framework
 wget http://download.playframework.org/releases/play-1.2.1.zip
 
@@ -6,6 +11,7 @@ wget http://download.playframework.org/releases/play-1.2.1.zip
 sudo apt-get install unzip
 unzip play-1.2.1.zip
 sudo mv play-1.2.1 /var/lib/
+rm -f ~/play-1.2.1.zip
 
 echo 'export PATH=$PATH:/var/lib/play-1.2.1/' >> ~/.bashrc
 
