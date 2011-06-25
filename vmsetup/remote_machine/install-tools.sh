@@ -16,11 +16,15 @@ sudo apt-get install postfix --assume-yes <<EOF
 rebeccacheri.co.uk
 EOF
 sudo /etc/init.d/postfix stop
-sudo mv /root/virtual /etc/postfix
-sudo mv /root/main.cf /etc/postfix
+sudo mv /root/remote_machine/mail/virtual /etc/postfix
+sudo mv /root/remote_machine/mail/main.cf /etc/postfix
 sudo postmap /etc/postfix/virtual
 sudo /etc/init.d/postfix start
 
+
+# ensure that the user can log on the environment without a password
+mkdir ~/.ssh
+mv /root/id_rsa.pub ~/.ssh/authorized_keys
 
 # finished!
 echo

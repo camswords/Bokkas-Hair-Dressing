@@ -18,4 +18,4 @@ echo "Please enter the password for bokka:"
 passwd bokka
 
 # switch to the new user
-su -c "sudo /root/install-tools.sh" - bokka
+su -c "sudo /root/remote_machine/install-tools.sh" - bokka

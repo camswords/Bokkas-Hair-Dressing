@@ -21,10 +21,8 @@ sed -ie "\|^$VM_SERVER.*\$|d" /etc/hosts
 echo "$VM_SERVER $SERVER_NAME" >> /etc/hosts
 
 # copy the files to the remote server
-scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no remote_machine/install.sh remote_machine/install-tools.sh remote_machine/startup/play remote_machine/mail/virtual remote_machine/mail/main.cf root@$SERVER_NAME:~
-
+scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -r remote_machine /home/cam/.ssh/id_rsa.pub root@$SERVER_NAME:~
 
 # run the install script
-ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@$SERVER_NAME 'chmod 755 ./*.sh'
-ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@$SERVER_NAME './install.sh'
-
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@$SERVER_NAME 'chmod 755 ./remote_machine/*.sh'
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@$SERVER_NAME './remote_machine/install.sh'
