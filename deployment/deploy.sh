@@ -12,7 +12,7 @@ rm RebeccaCheri.zip --force
 
 # create a new deployment archive
 cd ../..
-zip -r ./RebeccaCheri/deployment/RebeccaCheri.zip RebeccaCheri -x "**/logs/*" -x "**/.git/*" -x "**/tmp/*" -x "**/deployment/*" -x "**/eclipse/*" -x "**/vmsetup/*" -x "**/.settings/*" -x "**/test/*" -x "**/.classpath" -x "**/.project" -x "**/.gitignore"
+zip -r ./RebeccaCheri/deployment/RebeccaCheri.zip RebeccaCheri -x "**/logs/*" -x "**/raw_images/*" -x "**/.git/*" -x "**/tmp/*" -x "**/deployment/*" -x "**/eclipse/*" -x "**/vmsetup/*" -x "**/.settings/*" -x "**/test/*" -x "**/.classpath" -x "**/.project" -x "**/.gitignore"
 cd ./RebeccaCheri/deployment
 
 # copy latest artifact to the remote server, unzip
