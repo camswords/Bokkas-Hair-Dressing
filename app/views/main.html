@@ -3,11 +3,17 @@
 <html>
     <head>
         <title>Rebecca Cheri Hair Dressing</title>
-        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/reset-min.css'}">
+		<link rel="stylesheet" media="screen" href="@{'/public/stylesheets/reset-min.css'}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/rebecca-cheri.css'}" >
+
         #{get 'moreStyles' /}
-        
 		#{get 'moreScripts' /}
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#mycarousel').jcarousel();
+			});
+		</script>
 		
         <script type="text/javascript">
 

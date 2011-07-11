@@ -1,4 +1,22 @@
 #{ extends 'main.html' /}
 
+#{set 'moreScripts'}
+	#{script 'jquery-1.4.2.min.js' /}
+	#{script 'jquery.jcarousel.min.js' /}
+#{/set}
+
+#{set 'moreStyles'}
+	#{stylesheet 'carousel.css' /}
+#{/set}
+
 <p class="introduction">for whatever you are trying to achieve, allow Rebecca to inspire and  delight you, 
 transforming your style without even stepping outside of  your home. After all, beauty begins with your hair...</p>
+
+  <ul id="mycarousel" class="jcarousel-skin-tango">
+	<li><img src="/public/images/be_transformed.jpg" width="75" height="75" /></li>
+	<li><img src="/public/images/looking_to_the_common.jpg" width="75" height="75" /></li>
+	<li><img src="/public/images/be_transformed.jpg" width="75" height="75" /></li>
+	<li><img src="/public/images/looking_to_the_common.jpg" width="75" height="75" /></li>
+	<li><img src="/public/images/be_transformed.jpg" width="75" height="75" /></li>
+	<li><img src="/public/images/looking_to_the_common.jpg" width="75" height="75" /></li>
+  </ul>
