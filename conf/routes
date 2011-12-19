@@ -18,5 +18,7 @@ GET     /public/                                staticDir:public
 
 GET     /admin/log								staticFile:logs/system.out
 
+GET 	/googlef8cdfe12bd47c436.html			staticFile:public/html/googlea79594fced74a06e.html
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
