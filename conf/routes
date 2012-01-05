@@ -9,6 +9,7 @@ GET     /areas-and-hours						AreasAndHours.index
 GET     /bridal									Bridal.index
 GET     /contact								Contact.index
 GET     /about-me								AboutMe.index
+GET     /portfolio								Portfolio.index
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

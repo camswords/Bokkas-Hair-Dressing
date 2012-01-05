@@ -1,0 +1,27 @@
+#{ extends 'main.html' /}
+#{set 'moreScripts'}
+	#{script 'galleria/galleria-1.2.6.min.js' /}
+	#{script 'galleria/themes/classic/galleria.classic.min.js' /}
+#{/set}
+
+#{set 'inlineJavascript'}
+	<script language="javascript" type="text/javascript">
+		$(document).ready(function() {
+		    $('#portfolio').galleria({ width:500, height:500 });
+		});
+	</script>
+#{/set}
+
+<div id="portfolio">
+	<img src="/public/images/portfolio/behindandhigh.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/behindleft.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/boyandgirlbehind.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/dancing.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/frombehind.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/handsatwork.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/happyboyandgirl.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/midcut.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/ringlets.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/shadows.jpg" alt="" title="" />
+	<img src="/public/images/portfolio/sideon.jpg" alt="" title="" />
+</div>

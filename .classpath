@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry excluding="views/**" kind="src" path="app"/>
 	<classpathentry kind="src" path="test"/>
-	
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/home/cam/Documents/development/play-1.2.1/framework/play-1.2.1.jar"/>
 	<classpathentry kind="lib" path="/home/cam/Documents/development/play-1.2.1/framework/lib/mysql-connector-java-5.1.13.jar"/>
@@ -58,6 +57,5 @@
 	<classpathentry kind="lib" path="/home/cam/Documents/development/play-1.2.1/framework/lib/jj-imaging.jar"/>
 	<classpathentry kind="lib" path="/home/cam/Documents/development/play-1.2.1/framework/lib/oval-1.50.jar"/>
 	<classpathentry kind="lib" path="/home/cam/Documents/development/play-1.2.1/framework/lib/commons-fileupload-1.2.2.jar"/>
-	
 	<classpathentry kind="output" path="eclipse/classes"/>
 </classpath>
