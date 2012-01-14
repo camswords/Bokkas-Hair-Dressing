@@ -8,6 +8,7 @@
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/reset.css'}" />
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/960.css'}" />
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/rebecca-cheri.css'}" />
+        <link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css' />
         #{get 'moreStyles' /}
         
         #{script 'jquery-1.7.1.js' /}
@@ -36,12 +37,10 @@
 		<div class="container_16" id="header">
 			<div class="grid_5">
 				<img src="/public/images/rebeccacheri_280.jpg" width="280" height="199" alt="Rebecca Cheri" />
-				<p style="text-align: center">Rebecca Cheri</p>
-				<p style="text-align: center">mobile hairdressing</p>
-			</div>		
-		</div>
-		
-		<div class="container_16">
+				<p style="text-align: center; font-size: 150%; letter-spacing: 3px; font-family: 'Kameron', serif">R<span style="font-size: 92%;">EBECCA </span>C<span style="font-size:92%">HERI</span></p>
+				<p style="text-align: center; font-style: italic; font-family: sans-serif">mobile hairdressing</p>
+			</div>
+			<div class="clear"></div>
 			<div class="grid_2"><a href="/">Home</a></div>
 			<div class="grid_2"><a href="/prices">Prices</a></div>
 			<div class="grid_2"><a href="/areas-and-hours">Areas and hours</a></div>
@@ -52,7 +51,9 @@
 		</div>
 		
 		<div class="container_16">
+			<div class="grid_12">
  	   			#{doLayout /}
+ 	   		</div>
 		</div>    		
     </body>
 </html>
