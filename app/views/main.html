@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 
+
+
 <html>
     <head>
         <title>Rebecca Cheri Hair Dressing</title>
-        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/reset-min.css'}">
-        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/rebecca-cheri.css'}" >
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/reset.css'}" />
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/960.css'}" />
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/rebecca-cheri.css'}" />
         #{get 'moreStyles' /}
         
         #{script 'jquery-1.7.1.js' /}
 		#{get 'moreScripts' /}
 		#{get 'inlineJavascript' /}
 		
+		#{if play.Play.configuration.get("display.overlay") == 'true'}
+			#{script 'grid-overlay.js' /}
+		#{/if}
 		
         <script type="text/javascript">
 
@@ -25,40 +31,36 @@
   		  })();
 		</script>
     </head>
-    <body>
-		<div id="wrapper">
-			<div class="shadow1">
-				<div class="shadow2">
-					<div class="shadow3">
-						<div class="container">
-							<div id="header">
-								<div id="business-logo">
-									<img src="/public/images/rebeccacheri.jpg" width="378" height="100" alt="Rebecca Cheri" />
-									<div id="tagline">mobile hairdressing</div>
-								</div>
+    <body style="background: white;">
+    	<div class="container_12" style="border: 1px solid black;">
+    		<div class="grid_12" style="margin-top: 10px;">
+    		
+				<div id="header">
+					<div class="grid_3">
+						<img src="/public/images/rebeccacheri_130.jpg" width="183" height="130" alt="Rebecca Cheri" />
+					</div>
 				
-								<div id="toolbar">
-									<ul class="menu">
-										<li><a href="/"><span>Home</span></a></li>
-										<li><a href="/prices"><span>Prices</span></a></li>
-										<li><a href="/areas-and-hours"><span>Areas and hours</span></a></li>
-										<li><a href="/bridal"><span>Bridal</span></a></li><li class="item4"><a href="/contact"><span>Contact</span></a></li>
-										<li><a href="/about-me"><span>About me</span></a></li>
-										<li><a href="/portfolio"><span>Portfolio</span></a></li>
-									</ul>		
-								</div>
-							</div>
-							<div id="content">		
-								#{doLayout /}
-							</div>
-						</div>
+					<div id="business-logo">
+						<img src="/public/images/rebeccacheri_130.jpg" width="183" height="130" alt="Rebecca Cheri" />
+						<div id="tagline">mobile hairdressing</div>
+					</div>
+				
+					<div id="toolbar">
+						<ul class="menu">
+							<li><a href="/"><span>Home</span></a></li>
+							<li><a href="/prices"><span>Prices</span></a></li>
+							<li><a href="/areas-and-hours"><span>Areas and hours</span></a></li>
+							<li><a href="/bridal"><span>Bridal</span></a></li>
+							<li><a href="/contact"><span>Contact</span></a></li>
+							<li><a href="/about-me"><span>About me</span></a></li>
+							<li><a href="/portfolio"><span>Portfolio</span></a></li>
+						</ul>		
 					</div>
 				</div>
-			</div>
-		</div>
-		<br/>
-		<br/>
-		<br/>
-		<br/>    
+    		</div>
+    		<div class="grid_12" style="">
+ 	   			#{doLayout /}
+    		</div>
+    	</div>
     </body>
 </html>
