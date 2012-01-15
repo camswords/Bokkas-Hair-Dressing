@@ -1,4 +1,7 @@
 
+body { margin-top: 20px; background: green; }
+
+
 #content { font-size: 110%; }
 
 a, a:link, a:visited, a:hover, a:active {
