@@ -1,11 +1,10 @@
 
-body { margin-top: 20px; background: green; }
+body { margin-top: 0px;  }
 
 
-#content { font-size: 110%; }
+#content { font-size: 110%; min-height: 50%; }
 
 a, a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 	color: black;
 }
-
