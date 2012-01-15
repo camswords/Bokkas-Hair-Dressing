@@ -3,7 +3,7 @@
 # ~~~~
 
 # Home page
-GET     /                                       Home.index
+GET     /                                       AboutMe.index
 GET     /prices									Prices.index
 GET     /areas-and-hours						AreasAndHours.index
 GET     /bridal									Bridal.index
