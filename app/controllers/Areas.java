@@ -2,7 +2,7 @@ package controllers;
 
 import play.mvc.Controller;
 
-public class AreasAndHours extends Controller {
+public class Areas extends Controller {
 	
 	public static void index() {
 		render();
