@@ -20,7 +20,13 @@ GET     /public/                                staticDir:public
 
 GET     /admin/log								staticFile:logs/system.out
 
+# to ensure that google recognises me as the site owner
 GET 	/googlef8cdfe12bd47c436.html			staticFile:public/html/googlea79594fced74a06e.html
+
+# to ensure that googlebot or other crawlers play nice with the website
+GET 	/robots.txt								staticFile:public/robots.txt
+GET     /sitemap.xml							staticFile:public/sitemap.xml
+
 
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
